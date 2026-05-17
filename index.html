@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Smart Automation | Pièces d'automatisme</title>
+    
+    <!-- Bootstrap 5 CSS + Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <link rel="icon" type="image/png" href="products/SM-icon.png">
+    <!-- Google Fonts + SweetAlert2 -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+
+<!-- Section Hero avec image d'arrière-plan électrique / industriel -->
+<section class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8">
+                    <div class="hero-badge mb-3">
+                        <i class="bi bi-lightning-charge-fill me-2"></i> Smart Automation
+                    </div>
+                    <h1 class="hero-title">
+                        Pièces d'automatisme<br>Qualité & Confiance
+                    </h1>
+                    <p class="hero-description">
+                        Automates Siemens et composants industriels.<br>
+                        Basé à Casablanca - Vente directe sans intermédiaire.
+                    </p>
+                    <div class="hero-buttons mt-4">
+                        <a href="#catalogue" class="btn-hero-primary">
+                            <i class="bi bi-grid-3x3-gap-fill me-2"></i>Voir les pièces disponibles
+                        </a>
+                        <a href="tel:+212612345678" class="btn-hero-secondary">
+                            <i class="bi bi-telephone-fill me-2"></i>Appeler directement
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section Catalogue -->
+<div class="container py-5" id="catalogue">
+    <div class="text-center mb-5">
+        <h2 class="section-title">Pièces disponibles</h2>
+        <p class="section-subtitle">Automatismes neufs et occasions - Stock à Casablanca</p>
+        <div class="title-divider"></div>
+    </div>
+    <div class="product-grid" id="productGrid"></div>
+</div>
+
+<!-- Footer simple et honnête -->
+<footer class="main-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4><i class="bi bi-geo-alt-fill me-2"></i>Smart Automation</h4>
+                <p>Casablanca, Maroc</p>
+                <p class="mt-3">
+                    <i class="bi bi-telephone-fill me-2"></i> <strong>Tél / WhatsApp :</strong> +212 6 12 34 56 78<br>
+                    <i class="bi bi-envelope-fill me-2"></i> <strong>Email :</strong> smartautomation@contact.ma
+                </p>
+            </div>
+            <div class="footer-section">
+                <h4><i class="bi bi-info-circle-fill me-2"></i>À propos</h4>
+                <p>Vente directe de pièces d'automatisme.<br>
+                Basé à Casablanca, disponible pour toute question.</p>
+                <p class="mt-2"><i class="bi bi-whatsapp me-2"></i>Disponible sur WhatsApp</p>
+            </div>
+            <div class="footer-section">
+                <h4><i class="bi bi-hand-thumbs-up-fill me-2"></i>Contactez-moi</h4>
+                <p>✔ Prix sur demande<br>
+                ✔ Photos supplémentaires disponibles<br>
+                ✔ Réponse rapide par téléphone<br>
+                ✔ Paiement à la remise (Casablanca)</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Smart Automation - Casablanca, Maroc</p>
+            <p class="small">Contactez-moi directement pour tout devis ou information</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="productsData.js"></script>
+<script src="carousel.js"></script>
+<script src="contactAlert.js"></script>
+<script src="main.js"></script>
+
+<!-- Tooltip flottant -->
+<div class="floating-tooltip">
+    <i class="bi bi-info-circle-fill me-1"></i> Cliquez sur une carte → contactez-moi
+</div>
+</body>
+</html>
